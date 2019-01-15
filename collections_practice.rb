@@ -3,8 +3,9 @@ def sort_array_asc(array)
 end 
 
 def sort_array_desc(array)
-  array.sort!{|x,y| y <=> x}
+  array.sort!{|num_1,num_2| num_2 <=> num_1}
 end 
 
 def sort_array_char_count(array)
-  array.sort!{|word_1,word_2|
+  array.sort!{|word_1,word_2| word_1 <=> word_2}
+end 
